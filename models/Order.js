@@ -11,6 +11,6 @@ status:{type:String, required:true, default:'Order Placed'},
 date:{type:Number, required:true},
 })
 
-const order = mongoose.models.order || mongoose.model('order', orderSchema)
+const Order = mongoose.models.order || mongoose.model('order', orderSchema)
 
 export default Order
