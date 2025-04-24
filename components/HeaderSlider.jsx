@@ -8,24 +8,21 @@ const HeaderSlider = () => {
       id: 1,
       title: "Experience Heaven in a bottle, with Afnan Supremacy in Heaven",
       offer: "Limited Stock",
-      buttonText1: "Buy now",
-      buttonText2: "Find more",
+     
       imgSrc: assets.header_headphone_image,
     },
     {
       id: 2,
       title: "Maison Crivelli Oud Maracuja, is now available on Perfumery",
       offer: "Just Arrived",
-      buttonText1: "Shop Now",
-      buttonText2: "Explore Deals",
+     
       imgSrc: assets.header_playstation_image,
     },
     {
       id: 3,
       title: "Citrus Meets Wood - Rue Broca Theoreme is Here for you!",
       offer: "Exclusive Deal 10% Off",
-      buttonText1: "Order Now",
-      buttonText2: "Learn More",
+     
       imgSrc: assets.header_macbook_image,
     },
   ];
@@ -61,16 +58,7 @@ const HeaderSlider = () => {
               <h1 className="max-w-lg md:text-[40px] md:leading-[48px] text-2xl font-semibold">
                 {slide.title}
               </h1>
-              <div className="flex items-center mt-4 md:mt-6 ">
-                <button className="md:px-10 px-7 md:py-2.5 py-2 bg-orange-600 rounded-full text-white font-medium">
-                  {slide.buttonText1}
-                </button>
-                <button className="group flex items-center gap-2 px-6 py-2.5 font-medium">
-                  {slide.buttonText2}
-                  <Image className="group-hover:translate-x-1 transition" src={assets.arrow_icon} alt="arrow_icon" />
-                </button>
-              </div>
-            </div>
+             </div>
             <div className="flex items-center flex-1 justify-center">
               <Image
                 className="md:w-72 w-48"
